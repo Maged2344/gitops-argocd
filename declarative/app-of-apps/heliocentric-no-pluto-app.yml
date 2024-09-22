@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: git@github.com:Maged2344/gitops-argocd.git
     targetRevision: HEAD
-    path: ./declarative/manifests/heliocentric-model-no-pluto
+    path: declarative/manifests/heliocentric-model-no-pluto
    
   destination:
     server: https://kubernetes.default.svc
